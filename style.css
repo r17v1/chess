@@ -1,0 +1,74 @@
+#board {
+	width: 528px;
+	height: 528px;
+	position: relative;
+	margin: auto;
+	top: 100px;
+	border: solid black thin;
+}
+.cell {
+	height: 66px;
+	width: 66px;
+	position: absolute;
+	z-index: 10;
+	border: black thin solid;
+}
+.dark {
+	background-color: #8b4513;
+}
+.light {
+	background-color: #deb887;
+}
+.file_a {
+	left: 0px;
+}
+.file_b {
+	left: 66px;
+}
+.file_c {
+	left: 132px;
+}
+.file_d {
+	left: 198px;
+}
+.file_e {
+	left: 264px;
+}
+.file_f {
+	left: 330px;
+}
+.file_g {
+	left: 396px;
+}
+.file_h {
+	left: 462px;
+}
+.rank_1 {
+	bottom: 0px;
+}
+.rank_2 {
+	bottom: 66px;
+}
+.rank_3 {
+	bottom: 132px;
+}
+.rank_4 {
+	bottom: 198px;
+}
+.rank_5 {
+	bottom: 264px;
+}
+.rank_6 {
+	bottom: 330px;
+}
+.rank_7 {
+	bottom: 396px;
+}
+.rank_8 {
+	bottom: 462px;
+}
+.piece {
+	width: 64px;
+	height: 64px;
+	z-index: 100;
+}
