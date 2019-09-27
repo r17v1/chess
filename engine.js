@@ -846,7 +846,7 @@ function moveAI(depth, alpha, beta) {
 
 			move(f, r, ff, rr);
 			var value = moveAI(depth + 1, alpha, beta);
-			console.log(score + ' ' + value);
+			//console.log(score + ' ' + value);
 			if (value < score) {
 				score = value;
 				mv = moveSet[i];
@@ -879,7 +879,7 @@ function moveAI(depth, alpha, beta) {
 		}
 	}
 	if (depth === 0) {
-		console.log(mv);
+		//console.log(mv);
 		move(mv.f, mv.r, mv.ff, mv.rr);
 		printBoard();
 		$('#' + fileChar[mv.f] + rankChar[mv.r]).css('opacity', '0.5');
